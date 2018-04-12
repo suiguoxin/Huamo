@@ -1,0 +1,16 @@
+{
+  "name": "huamo",
+  "version": "1.0.0",
+  "description": "Huamo Zhenxuan",
+  "main": "app.js",
+  "scripts": {
+    "heroku": "NODE_ENV=production node index"
+  },
+  "author": "Guoxin SUI",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.14.0",
+    "config-lite": "2.1.0",
+    "ejs": "2.5.7"
+  }
+}
