@@ -65,12 +65,12 @@
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media (max-width: 30em) {
+@media (max-width: 40em) {
     /* Bump up size of carousel content */
 
     .navbar-brand{
-        margin-right: 8rem;
-    }
+        margin-right: 5rem;
+}
     #myCarousel{
         margin-left: 0;
         margin-right: 0;
@@ -90,6 +90,18 @@
     .carousel-caption h1{
         font-size: 1.5rem;
         font-weight: 400;
+    }
+
+    .h2, h2{
+        font-size: 1.5rem;
+    }
+
+    .lead{
+        font-size: 1rem;
+    }
+
+    .featurette-divider{
+        margin: 1.5rem 0;
     }
 }
 
